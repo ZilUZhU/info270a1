@@ -10,13 +10,16 @@ export function Home(props) {
     }
 
     return (
-        <div>
+        <div className='body'>
+            <div className="home">
 
-            <p>I had encountered a lot of b*llsh*t this week</p>
-            <p>click to view a random one</p>
-            <Link to={randLink} className="btn btn-outline-warning" >view it</Link>
-            <p>or if you want to see the whole list</p>
-            <Link to="wholelist" className="btn btn-outline-warning" >view it</Link>
+                <p>I had encountered a lot of b*llsh*t this week</p>
+                <p>click to view a random one</p>
+                <Link to={randLink} className="btn btn-outline-warning" >view it</Link>
+                <p>or if you want to see the whole list</p>
+                <Link to="wholelist" className="btn btn-outline-warning" >view it</Link>
+
+            </div>
         </div>
     );
 }

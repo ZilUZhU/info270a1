@@ -18,7 +18,7 @@ export function WholeList(props) {
     }
 
     return (
-        <div>
+        <div className='body'>
             <div>
                 {cardsArray}
             </div>

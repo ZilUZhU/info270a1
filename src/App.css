@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  /* background-color: #efecccee; */
+  height: 100%;
+  padding-bottom: 10em;
+
 }
 
 .App-logo {
@@ -11,6 +15,24 @@ img {
   max-width: 50%;
   height: auto;
   padding: 5px;
+}
+
+.body {
+  margin: 1em;
+}
+
+header {
+  background-color: bisque;
+  font-size: 60px;
+  height: 100px;
+  padding: auto;
+  font-family: Copperplate, Papyrus, fantasy;
+  margin-bottom: 1em;
+  position: sticky;
+}
+
+.home p {
+  font-size: 30px;
 }
 
 .card {
