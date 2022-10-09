@@ -31,6 +31,10 @@ header {
   position: sticky;
 }
 
+p {
+  font-family: cursive;
+}
+
 .home p {
   font-size: 30px;
 }
