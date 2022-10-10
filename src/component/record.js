@@ -1,6 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
-
 export const bsList = [
     {
         summary: "People put dirty dishes and cups right below the sign telling them to return dirty dishes and cups to dish drop.",
@@ -18,7 +15,7 @@ export const bsList = [
         picAlt: "awkward face"
     },
     {
-        summary: "The time that I go to bed",
+        summary: "The time that I plan to go to bed... And I end up go to bed 1 hour later. Mentally living on the other side of the planet",
         pic: "/img/bedtime.png",
         picAlt: "time"
     }

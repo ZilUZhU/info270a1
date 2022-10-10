@@ -8,9 +8,10 @@ export function Detail(props) {
     return (
         <div className='body'>
             <div>
-                <p>{item.summary}</p>
+                <p className='detail'>{item.summary}</p>
                 <img src={item.pic} alt={item.picAlt}></img>
             </div>
+            <Link to="../" className="btn btn-danger" >Go Back</Link>
         </div>
     );
 }

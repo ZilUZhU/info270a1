@@ -23,8 +23,8 @@ img {
 
 header {
   background-color: bisque;
-  font-size: 60px;
-  height: 100px;
+  font-size: 80px;
+  height: 120px;
   padding: auto;
   font-family: Copperplate, Papyrus, fantasy;
   margin-bottom: 1em;
@@ -36,11 +36,35 @@ p {
 }
 
 .home p {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .card {
   width: 100%;
+  margin: 1em;
+  background-color: aliceblue;
+}
+
+.all p {
+  font-size: 30px;
+}
+
+.important {
+  font-size: 70px;
+  margin: 1em;
+  font-weight: bolder;
+  text-shadow: 2px 2px #e7d2b7;
+}
+
+.btn-danger {
+  border-radius: 50%;
+  height: 3rem;
+}
+
+.detail {
+  font-size: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

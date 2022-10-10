@@ -6,7 +6,7 @@ export function Home(props) {
     const [randLink, setNum] = useState("");
     useEffect(randomNum, []);
     function randomNum() {
-        setNum("detail/" + Math.floor(Math.random() * 2));
+        setNum("detail/" + Math.floor(Math.random() * 4));
     }
 
     return (
@@ -15,9 +15,9 @@ export function Home(props) {
 
                 <p>I had encountered a lot of b*llsh*t this week</p>
                 <p>click to view a random one</p>
-                <Link to={randLink} className="btn btn-outline-warning" >view it</Link>
+                <Link to={randLink} className="btn btn-danger" >view it</Link>
                 <p>or if you want to see the whole list</p>
-                <Link to="wholelist" className="btn btn-outline-warning" >view it</Link>
+                <Link to="wholelist" className="btn btn-danger" >view it</Link>
 
             </div>
         </div>

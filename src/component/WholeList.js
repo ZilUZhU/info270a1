@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export function WholeList(props) {
     let a = props.list;
@@ -18,13 +19,15 @@ export function WholeList(props) {
     }
 
     return (
-        <div className='body'>
+        <div className='body all'>
             <div>
                 {cardsArray}
             </div>
             <div>
-                <p>Sorry, these b*llsh*ts are a mess to me. There is NO WAY I can categorize them.</p>
+                <p className='important'>Sorry, these b*llsh*ts are a mess to me. There is NO WAY I can categorize them.</p>
+                <Link to="../" className="btn btn-danger" >Go Back</Link>
             </div>
+
 
         </div>
     )
